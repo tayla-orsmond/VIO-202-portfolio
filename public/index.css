@@ -18,9 +18,15 @@
     padding: 0;
 }
 /* GENERAL */
-.vr{
-    width: 3px;
+hr{
+    height: 3px;
+    width: 100%;
     background-color: var(--light);
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
 }
 /* NAV */
 nav{
@@ -70,21 +76,21 @@ nav a:not(.btn):hover::before{
 }
 
 /* BUTTONS */
-.btn-primary{
-    background-color: var(--quaternary);
+.btn{
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+    color: var(--primary) !important;
 }
-.btn-primary:hover{
+.btn:hover{
+    background-color: var(--primary);
+    color: var(--secondary) !important;
+}
+.btn-primary{
     background-color: var(--tertiary);
 }
 .btn-secondary{
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--quaternary);
 }
-.btn-secondary:hover{
-    background-color: var(--light);
-    color: var(--secondary);
-}
-
 .fp-watermark a{
     background: transparent !important;
     color: var(--light) !important;
