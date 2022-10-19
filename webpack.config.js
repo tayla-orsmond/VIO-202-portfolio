@@ -1,6 +1,9 @@
 const path = require("path");
 
 module.exports = {
+    resolve: {
+        extensions: ['.js', '.jsx', '...']
+    },
     entry: "./src/index.js",
     output: {
     path: path.resolve("public"),
@@ -18,6 +21,7 @@ module.exports = {
             },
             {
                 test: /\.svg$/,
+                exclude: /\.(png|jpg|jpeg|gif)$/i,
                 use: [
                   {
                     loader: 'svg-url-loader',
@@ -30,6 +34,10 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
+            },
+            {
+                test: /\.(png|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             },
         ]
     }
