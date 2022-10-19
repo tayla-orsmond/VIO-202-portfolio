@@ -1,7 +1,7 @@
 //Tayla Orsmond u21467456
 
 import React from 'react';
-import Me from '../img/Me.jpg';
+// import Me from '../img/Me.jpg';
 //icons
 import {SiHtml5} from '@react-icons/all-files/si/SiHtml5';
 import {SiCss3} from '@react-icons/all-files/si/SiCss3';
@@ -50,7 +50,7 @@ export class About extends React.Component {
                     </div>
                 </div>
                 <div className='col-3'>
-                    <img src={Me} alt='Me' className='img-fluid'/>
+                    {/* <img src={Me} alt='Me' className='img-fluid'/> */}
                 </div>
             </div>
         );
