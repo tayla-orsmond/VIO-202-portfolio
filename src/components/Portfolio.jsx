@@ -4,9 +4,9 @@ import React from 'react';
 import Icon from '../img/icon.svg';
 
 //Portfolio page
-export class Portfolio extends React.Component {
-    render() {
-        return (
+class Portfolio extends React.Component {
+    render(){
+        return(
             <div className='row m-0'>
                 <div className='col-2 offset-2'>
                     <div className='small'>Welcome to my</div>
@@ -28,3 +28,5 @@ export class Portfolio extends React.Component {
         );
     }
 }
+
+export default Portfolio;

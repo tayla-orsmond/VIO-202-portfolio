@@ -1,33 +1,38 @@
 //Tayla Orsmond u21467456
 
 import React from 'react';
+
+
 import Icon from '../img/icon.svg';
 import BgImg from '../img/buildings.svg';
 import BRight from '../img/building-right.svg';
 import BLeft from '../img/building-left.svg';
+
+
+const style_ = {
+    zIndex: 0,
+    position: 'absolute',
+    top: '0',
+    width: '100vw',
+}
+const style_1 = {
+    zIndex: 3,
+    position: 'absolute',
+    bottom: '0',
+    width: '20%',
+    left: '15%',
+}
+const style_2 = {
+    zIndex: 3,
+    position: 'absolute',
+    bottom: '0',
+    width: '20%',
+    right: '25%',
+}
+
 //Infographic page
-export class Infographic extends React.Component {
-    render() {
-        const style_ = {
-            zIndex: 0,
-            position: 'absolute',
-            top: '0',
-            width: '100vw',
-        }
-        const style_1 = {
-            zIndex: 3,
-            position: 'absolute',
-            bottom: '0',
-            width: '20%',
-            left: '15%',
-        }
-        const style_2 = {
-            zIndex: 3,
-            position: 'absolute',
-            bottom: '0',
-            width: '20%',
-            right: '25%',
-        }
+class Infographic extends React.Component {
+    render(){
         return (
             <div className="row mx-0">
                 <div className="col-4 offset-4" style={{zIndex: 2}}>
@@ -46,3 +51,5 @@ export class Infographic extends React.Component {
         );
     }
 }
+
+export default Infographic;

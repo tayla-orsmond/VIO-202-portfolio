@@ -6,9 +6,9 @@ import Logo  from '../img/logo.svg';
 import Icon from '../img/icon.svg';
 
 //Home page
-export class Home extends React.Component {
-    render() {
-        return (
+class Home extends React.Component {
+    render(){
+        return(
             <div className="row m-0">
                 <div className="col-5 offset-2">
                     <h1 className="display-2">Tayla Orsmond</h1>
@@ -27,3 +27,5 @@ export class Home extends React.Component {
         );
     }
 }
+
+export default Home;

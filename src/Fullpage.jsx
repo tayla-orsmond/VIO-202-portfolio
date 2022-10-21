@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 
-import {Home} from './components/Home';
-import {Portfolio} from './components/Portfolio';
-import {Infographic} from './components/Infographic';
-import {Comic} from './components/Comic';
-import {About} from './components/About';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import Infographic from './components/Infographic';
+import Comic from './components/Comic';
+import About from './components/About';
 
 const Fullpage = () => (
   <ReactFullpage

@@ -1,7 +1,7 @@
 //Tayla Orsmond u21467456
 
 import React from 'react';
-// import Me from '../img/Me.jpg';
+import Me from '../img/Me.jpg';
 //icons
 import {SiHtml5} from '@react-icons/all-files/si/SiHtml5';
 import {SiCss3} from '@react-icons/all-files/si/SiCss3';
@@ -17,8 +17,8 @@ import {SiJava} from '@react-icons/all-files/si/SiJava';
 import {SiPhp} from '@react-icons/all-files/si/SiPhp';
 
 //About page
-export class About extends React.Component {
-    render() {
+class About extends React.Component {
+    render(){
         return (
             <div className='row m-0'>
                 <div className='col-4 offset-2'>
@@ -50,9 +50,12 @@ export class About extends React.Component {
                     </div>
                 </div>
                 <div className='col-3'>
-                    {/* <img src={Me} alt='Me' className='img-fluid'/> */}
+                    <div className="p-5"></div>
+                    <img src={Me} alt='Tayla Orsmond' className='img-fluid'/>
                 </div>
             </div>
-        );
+        )
     }
 }
+
+export default About;
