@@ -10,11 +10,11 @@ class Portfolio extends React.Component {
             <div className='row m-0'>
                 <div className='col-2 offset-2'>
                     <div className='small'>Welcome to my</div>
-                    <h1 className='display-5'>Portfolio</h1>
+                    <div className="d-flex">
+                        <h1 className='display-5'>Portfolio</h1>
+                        <img src={Icon} alt='Icon' className='img-fluid' style={{width: "3rem"}}/>
+                    </div>
                     <hr/>
-                </div>
-                <div className='col-1'>
-                    <img src={Icon} alt='Icon' className='img-fluid' style={{maxWidth: "60%"}}/>
                 </div>
                 <div className='col-8 offset-2'>
                     <p>This portfolio was designed as part of my second-year BIS multimedia module VIO 202. It was created to combine my theme 2 and 3 projects from this year into a clean, cohesive website that is an enjoyable viewing experience for people and shows off the hard work I put into these projects, as well as give a little insight into myself.</p>

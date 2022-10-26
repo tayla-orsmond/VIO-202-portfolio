@@ -10,11 +10,9 @@ class Home extends React.Component {
     render(){
         return(
             <div className="row m-0">
-                <div className="col-5 offset-2">
+                <div className="col-5 offset-2 d-flex">
                     <h1 className="display-2">Tayla Orsmond</h1>
-                </div>
-                <div className="col-1">
-                    <img src={Icon} alt="Icon" className="img-fluid"/>
+                    <img src={Icon} alt="Icon" className="img-fluid" style={{width: "5rem"}}/>
                 </div>
                 <div className="col-8 offset-3">
                     <h2><span className="text-tertiary">Graphic Designer</span> & <span className="text-quaternary">Web Developer</span></h2>

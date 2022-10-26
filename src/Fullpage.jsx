@@ -14,7 +14,7 @@ const Fullpage = () => (
     scrollingSpeed = {1000} /* Options here */
     menu={"#menu"}
     anchors={['home', 'portfolio', 'infographic', 'comic', 'about']}
-    sectionsColor={['#171521', '#1E1B2B', '#29253C', '#181622', '#1E1B2B']}
+    sectionsColor={['#171521', '#171521', '#171521', '#171521', '#171521']}
     navigation={true}
     navigationPosition={"right"}
     navigationTooltips={["Home", "Portfolio", "Infographic", "Comic", "About"]}
