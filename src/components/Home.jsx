@@ -2,7 +2,7 @@
 
 import React from 'react';
 //logo
-import Logo  from '../img/logo.svg';
+import Logo from './Logo';
 import Icon from '../img/icon.svg';
 
 //Home page
@@ -19,7 +19,9 @@ class Home extends React.Component {
                 </div>
                 <div className="col-5 offset-3">
                     <h2 className="text-right mx-4">& Author of</h2>
-                    <img src={Logo} alt="logo" className="img-fluid" />
+                    <div className="col-12">
+                        <a href="https://vio-motion-comic.netlify.app/"><Logo/></a>
+                    </div>
                 </div>
             </div>
         );

@@ -20,9 +20,9 @@ class Comic extends React.Component {
                     <h1 className="display-5"><span className='text-quaternary'>Comic</span></h1>
                     <hr/>
                     <p>My Theme 3 project was a motion comic. The task was to create an interactive, animated version of our comics from first year. I used Rive canvases, css and vanilla js to create my animated panels. All of the sound I did myself.</p>
-                    <div className='col-4 d-flex align-items-center justify-content-center'>
-                        <img src={Icon} alt="Icon" style={{maxWidth: "60%"}} />
-                        <a href="https://vio-motion-comic.netlify.app/" className='btn btn-secondary'>View</a>
+                    <div className='col-4 d-flex align-items-start justify-content-center'>
+                        <img src={Icon} alt="Icon" className="img-fluid p-2" style={{maxWidth: "4rem"}}/>
+                        <a href="https://vio-motion-comic.netlify.app/" className='btn btn-secondary' style={{borderRadius: "1rem 1rem 1rem 0"}}>View</a>
                     </div>
                 </div>
             </div>

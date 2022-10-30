@@ -35,6 +35,20 @@ nav{
 #fp-nav ul li a span{
     background: var(--light) !important;
 }
+#fp-nav ul li:nth-child(1) a.active span{
+    background: var(--secondary) !important;
+}
+#fp-nav ul li:nth-child(3) a.active span{
+    background: var(--tertiary) !important;
+}
+#fp-nav ul li:nth-child(4) a.active span{
+    background: var(--quaternary) !important;
+}
+.fp-tooltip{
+    font-family: var(--main-font) !important;
+    color: var(--secondary) !important;
+    top: -5px !important;
+}
 a{
     font-family: var(--main-font);
     color: var(--light) !important;
@@ -95,4 +109,23 @@ nav a:not(.btn):hover::before{
     background: transparent !important;
     color: var(--light) !important;
     /* display: none !important; */
+}
+
+/* CANVAS */
+#canvas{
+    height: 20rem !important;
+}
+
+#logo{
+    height: 10rem !important;
+}
+
+/* ICONS */
+.icon{
+    transition: all 0.3s ease-in-out;
+    width: 3rem;
+    height: 3rem;
+}
+.icon:hover{
+    transform: scale(1.2) !important;
 }

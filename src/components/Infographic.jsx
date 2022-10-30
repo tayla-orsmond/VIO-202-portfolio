@@ -29,11 +29,11 @@ class Infographic extends React.Component {
                 <div className="col-3 offset-4">
                     <h1 className="display-5"><span className='text-tertiary'>Infographic</span></h1>
                     <hr/>
-                    <p>My Theme 2 Project was an interactive infographic that shows some of the background of my comic's story and characters.  I created interactive animated components using Rive objects, and parallax scrolling using vanilla js.</p>
+                    <p className='ps-2'>My Theme 2 Project was an interactive infographic that shows some of the background of my comic's story and characters.  I created interactive animated components using Rive objects, and parallax scrolling using vanilla js.</p>
                 </div>
-                <div className='col-1 offset-5 d-inline-flex align-items-center'>
-                    <a href="https://vio-infographic.netlify.app/" className='btn btn-primary' style={{zIndex: 10}}>View</a>
-                    <img src={Icon} alt="Icon" style={{maxWidth: "60%"}} />
+                <div className='col-1 offset-5 d-inline-flex align-items-start'>
+                    <a href="https://vio-infographic.netlify.app/" className='btn btn-primary' style={{zIndex: 10, borderRadius: "1rem 1rem 0 1rem"}}>View</a>
+                    <img src={Icon} alt="Icon" style={{maxWidth: "3rem"}} />
                 </div>
                 <MouseParallax 
                 isAbsolutelyPositioned={true}
@@ -54,7 +54,7 @@ class Infographic extends React.Component {
                 <MouseParallax
                 isAbsolutelyPositioned={true}
                 zIndex={0}
-                strength={0.05}
+                strength={0.055}
                 shouldResetPosition={true}>
                     <img src={BgImg} className="img-fluid" alt="buildings in the background"/>
                 </MouseParallax>
