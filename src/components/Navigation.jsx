@@ -34,7 +34,7 @@ class Navigation extends React.Component {
                             <li className="nav-item mx-2">
                                 <a className="nav-link" data-menuanchor="comic" href="#comic"><span className="text-quaternary">Motion</span><br/> Comic</a>
                             </li>
-                            <li className="nav-item mx-2">
+                            <li className="nav-item">
                                 <a className="nav-link" data-menuanchor="about" href="#about">About</a>
                             </li>
                         </ul>
