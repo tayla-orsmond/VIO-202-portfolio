@@ -78,9 +78,9 @@ class About extends React.Component {
                             <hr/>
                         </div>
                         <div className='col-12'>
-                            <p className='lead'>Hi!, I'm Tayla Orsmond. I am currently a second-year BIS Multimedia student at the University of Pretoria.</p>
+                            <p className='lead'>Hi! I'm Tayla Orsmond. I am currently a second-year BIS Multimedia student at the University of Pretoria.</p>
                             <p>I am an aspiring designer and web-developer in both front and back-end. I like cats.</p>
-                            <p>I am proficient in:</p>
+                            <p>I am <span className='text-tertiary'>proficient</span> in:</p>
                             <div className="d-flex flex-wrap justify-content-center">
                                 {this.state.skills.map((skill, index) => {
                                     return (
