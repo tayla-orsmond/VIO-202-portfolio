@@ -15,7 +15,7 @@ class Comic extends React.Component {
                 <div className="col-12">
                     <iframe title="Frame 1 of my comic, Afterlife" style={{border: 0, margin: "0", opacity: 0.4}} width="100%" height="540" src="https://rive.app/s/iLD027-o4U2XJg7uVyII9w/embed" allowFullScreen></iframe>
                 </div>
-                <div className="col-3 offset-2 overlay col-xl-2 offset-xl-3" style={style_}>
+                <div className="col-3 offset-2 overlay col-xxl-2 offset-xxl-3" style={style_}>
                     <div className="p-5"></div>
                     <h1 className="display-5"><span className='text-quaternary'>Comic</span></h1>
                     <hr/>
